@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "Yatish Pandiri",
   "license": "ISC",
@@ -17,6 +20,7 @@
     "jsonwebtoken": "^9.0.0",
     "mongodb": "^5.5.0",
     "mongoose": "^7.2.0",
+    "netlify-cli": "^17.16.2",
     "nodemon": "^2.0.22"
   }
 }
